@@ -1,0 +1,14 @@
+.sidebar-left, .sidebar-right {
+    width: 20%; /* Ancho de las barras laterales */
+    height: auto;
+    background-color: #808080; /* Color de fondo de las barras laterales */
+    background-image: url(spiWeb.jpg);
+    background-repeat: no-repeat;
+}
+.content {
+    flex: 1; /* El contenido central ocupará todo el espacio restante */
+    padding: 20px; /* Espacio alrededor del contenido */
+}
+.container {
+    display: flex;
+}
